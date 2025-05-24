@@ -1,0 +1,448 @@
+[0.109s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.110s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b9c42e5fd60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b9c42fa4d60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b9c42fa4d60>>, mixin_verb=('build',))
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.149s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/faruk/ws_sensor_combined'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_offboard' with type 'ros.ament_python' and name 'px4_offboard'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard_control) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard_control) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard_control) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard_control) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard_control) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard_control) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard_control) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard_control) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_offboard_control) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_offboard_control' with type 'ros.ament_cmake' and name 'px4_offboard_control'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detector) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_detector' with type 'ros.ament_python' and name 'yolo_detector'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_listener) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_listener) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_listener) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_listener) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_listener) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_listener) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_listener) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_listener) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_listener' with type 'ros.ament_python' and name 'yolo_listener'
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.199s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 306 installed packages in /opt/ros/humble
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faruk/ws_sensor_combined/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faruk/ws_sensor_combined/install/px4_msgs', 'merge_install': False, 'path': '/home/faruk/ws_sensor_combined/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faruk/ws_sensor_combined/build/yolo_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faruk/ws_sensor_combined/install/yolo_detector', 'merge_install': False, 'path': '/home/faruk/ws_sensor_combined/src/yolo_detector', 'symlink_install': False, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_listener' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_listener' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'yolo_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faruk/ws_sensor_combined/build/yolo_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faruk/ws_sensor_combined/install/yolo_listener', 'merge_install': False, 'path': '/home/faruk/ws_sensor_combined/src/yolo_listener', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'px4_offboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faruk/ws_sensor_combined/build/px4_offboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faruk/ws_sensor_combined/install/px4_offboard', 'merge_install': False, 'path': '/home/faruk/ws_sensor_combined/src/px4_offboard', 'symlink_install': False, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard_control' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard_control' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'px4_offboard_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faruk/ws_sensor_combined/build/px4_offboard_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faruk/ws_sensor_combined/install/px4_offboard_control', 'merge_install': False, 'path': '/home/faruk/ws_sensor_combined/src/px4_offboard_control', 'symlink_install': False, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faruk/ws_sensor_combined/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faruk/ws_sensor_combined/install/px4_ros_com', 'merge_install': False, 'path': '/home/faruk/ws_sensor_combined/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.246s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.247s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faruk/ws_sensor_combined/src/px4_msgs' with build type 'ament_cmake'
+[0.247s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faruk/ws_sensor_combined/src/px4_msgs'
+[0.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/faruk/ws_sensor_combined/src/yolo_detector' with build type 'ament_python'
+[0.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_detector', 'ament_prefix_path')
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/yolo_detector/share/yolo_detector/hook/ament_prefix_path.ps1'
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/yolo_detector/share/yolo_detector/hook/ament_prefix_path.dsv'
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/yolo_detector/share/yolo_detector/hook/ament_prefix_path.sh'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/faruk/ws_sensor_combined/src/yolo_listener' with build type 'ament_python'
+[0.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_listener', 'ament_prefix_path')
+[0.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/yolo_listener/share/yolo_listener/hook/ament_prefix_path.ps1'
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/yolo_listener/share/yolo_listener/hook/ament_prefix_path.dsv'
+[0.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/yolo_listener/share/yolo_listener/hook/ament_prefix_path.sh'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/faruk/ws_sensor_combined/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/faruk/ws_sensor_combined/install/px4_msgs
+[0.485s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/faruk/ws_sensor_combined/src/yolo_detector'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.715s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/faruk/ws_sensor_combined/src/yolo_listener'
+[0.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/src/yolo_detector': PYTHONPATH=/home/faruk/ws_sensor_combined/build/yolo_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faruk/ws_sensor_combined/install/yolo_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detector build --build-base /home/faruk/ws_sensor_combined/build/yolo_detector/build install --record /home/faruk/ws_sensor_combined/build/yolo_detector/install.log --single-version-externally-managed install_data
+[1.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/src/yolo_listener': PYTHONPATH=/home/faruk/ws_sensor_combined/build/yolo_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faruk/ws_sensor_combined/install/yolo_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_listener build --build-base /home/faruk/ws_sensor_combined/build/yolo_listener/build install --record /home/faruk/ws_sensor_combined/build/yolo_listener/install.log --single-version-externally-managed install_data
+[1.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/src/yolo_listener' returned '0': PYTHONPATH=/home/faruk/ws_sensor_combined/build/yolo_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faruk/ws_sensor_combined/install/yolo_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_listener build --build-base /home/faruk/ws_sensor_combined/build/yolo_listener/build install --record /home/faruk/ws_sensor_combined/build/yolo_listener/install.log --single-version-externally-managed install_data
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_listener' for CMake module files
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_listener' for CMake config files
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_listener/lib'
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_listener/bin'
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_listener/lib/pkgconfig/yolo_listener.pc'
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_listener/lib/python3.10/site-packages'
+[1.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_listener', 'pythonpath')
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/yolo_listener/share/yolo_listener/hook/pythonpath.ps1'
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/yolo_listener/share/yolo_listener/hook/pythonpath.dsv'
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/yolo_listener/share/yolo_listener/hook/pythonpath.sh'
+[1.848s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_listener/bin'
+[1.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_listener)
+[1.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/yolo_listener/share/yolo_listener/package.ps1'
+[1.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faruk/ws_sensor_combined/install/yolo_listener/share/yolo_listener/package.dsv'
+[1.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/yolo_listener/share/yolo_listener/package.sh'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/yolo_listener/share/yolo_listener/package.bash'
+[1.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/yolo_listener/share/yolo_listener/package.zsh'
+[1.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faruk/ws_sensor_combined/install/yolo_listener/share/colcon-core/packages/yolo_listener)
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_detector' for CMake module files
+[1.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/src/yolo_detector' returned '0': PYTHONPATH=/home/faruk/ws_sensor_combined/build/yolo_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faruk/ws_sensor_combined/install/yolo_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detector build --build-base /home/faruk/ws_sensor_combined/build/yolo_detector/build install --record /home/faruk/ws_sensor_combined/build/yolo_detector/install.log --single-version-externally-managed install_data
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_detector' for CMake config files
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_detector/lib'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_detector/bin'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_detector/lib/pkgconfig/yolo_detector.pc'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_detector/lib/python3.10/site-packages'
+[1.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_detector', 'pythonpath')
+[1.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/yolo_detector/share/yolo_detector/hook/pythonpath.ps1'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/yolo_detector/share/yolo_detector/hook/pythonpath.dsv'
+[1.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/yolo_detector/share/yolo_detector/hook/pythonpath.sh'
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/yolo_detector/bin'
+[1.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_detector)
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/yolo_detector/share/yolo_detector/package.ps1'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faruk/ws_sensor_combined/install/yolo_detector/share/yolo_detector/package.dsv'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/yolo_detector/share/yolo_detector/package.sh'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/yolo_detector/share/yolo_detector/package.bash'
+[1.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/yolo_detector/share/yolo_detector/package.zsh'
+[1.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faruk/ws_sensor_combined/install/yolo_detector/share/colcon-core/packages/yolo_detector)
+[4.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/faruk/ws_sensor_combined/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/faruk/ws_sensor_combined/install/px4_msgs
+[4.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/faruk/ws_sensor_combined/build/px4_msgs -- -j12 -l12
+[281.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/faruk/ws_sensor_combined/build/px4_msgs -- -j12 -l12
+[281.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/faruk/ws_sensor_combined/build/px4_msgs
+[282.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[282.411s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs' for CMake module files
+[282.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/faruk/ws_sensor_combined/build/px4_msgs
+[282.412s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs' for CMake config files
+[282.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[282.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[282.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[282.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[282.418s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs/lib'
+[282.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[282.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[282.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[282.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[282.419s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs/bin'
+[282.420s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[282.420s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages'
+[282.420s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs/bin'
+[282.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.ps1'
+[282.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.dsv'
+[282.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.sh'
+[282.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.bash'
+[282.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.zsh'
+[282.422s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faruk/ws_sensor_combined/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[282.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[282.423s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs' for CMake module files
+[282.423s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs' for CMake config files
+[282.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[282.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[282.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[282.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[282.430s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs/lib'
+[282.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[282.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[282.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[282.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[282.432s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs/bin'
+[282.432s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[282.433s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages'
+[282.433s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_msgs/bin'
+[282.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.ps1'
+[282.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.dsv'
+[282.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.sh'
+[282.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.bash'
+[282.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/package.zsh'
+[282.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faruk/ws_sensor_combined/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[282.437s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/faruk/ws_sensor_combined/src/px4_offboard' with build type 'ament_python'
+[282.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'ament_prefix_path')
+[282.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.ps1'
+[282.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.dsv'
+[282.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.sh'
+[282.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[282.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[282.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faruk/ws_sensor_combined/src/px4_offboard_control' with build type 'ament_cmake'
+[282.444s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faruk/ws_sensor_combined/src/px4_offboard_control'
+[282.444s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[282.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[282.447s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faruk/ws_sensor_combined/src/px4_ros_com' with build type 'ament_cmake'
+[282.448s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faruk/ws_sensor_combined/src/px4_ros_com'
+[282.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[282.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[282.717s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/faruk/ws_sensor_combined/src/px4_offboard'
+[282.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[282.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[282.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/faruk/ws_sensor_combined/src/px4_offboard_control -DCMAKE_INSTALL_PREFIX=/home/faruk/ws_sensor_combined/install/px4_offboard_control
+[282.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/faruk/ws_sensor_combined/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/faruk/ws_sensor_combined/install/px4_ros_com
+[283.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/src/px4_offboard': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faruk/ws_sensor_combined/install/px4_offboard/lib/python3.10/site-packages:/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/faruk/ws_sensor_combined/build/px4_offboard/build install --record /home/faruk/ws_sensor_combined/build/px4_offboard/install.log --single-version-externally-managed install_data
+[284.060s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard' for CMake module files
+[284.061s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard' for CMake config files
+[284.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/src/px4_offboard' returned '0': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faruk/ws_sensor_combined/install/px4_offboard/lib/python3.10/site-packages:/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/faruk/ws_sensor_combined/build/px4_offboard/build install --record /home/faruk/ws_sensor_combined/build/px4_offboard/install.log --single-version-externally-managed install_data
+[284.062s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard/lib'
+[284.062s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard/bin'
+[284.062s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard/lib/pkgconfig/px4_offboard.pc'
+[284.062s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard/lib/python3.10/site-packages'
+[284.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'pythonpath')
+[284.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard/share/px4_offboard/hook/pythonpath.ps1'
+[284.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_offboard/share/px4_offboard/hook/pythonpath.dsv'
+[284.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard/share/px4_offboard/hook/pythonpath.sh'
+[284.064s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard/bin'
+[284.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_offboard)
+[284.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard/share/px4_offboard/package.ps1'
+[284.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faruk/ws_sensor_combined/install/px4_offboard/share/px4_offboard/package.dsv'
+[284.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard/share/px4_offboard/package.sh'
+[284.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard/share/px4_offboard/package.bash'
+[284.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard/share/px4_offboard/package.zsh'
+[284.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faruk/ws_sensor_combined/install/px4_offboard/share/colcon-core/packages/px4_offboard)
+[284.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/faruk/ws_sensor_combined/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/faruk/ws_sensor_combined/install/px4_ros_com
+[284.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/faruk/ws_sensor_combined/build/px4_ros_com -- -j12 -l12
+[284.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control' returned '0': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/faruk/ws_sensor_combined/src/px4_offboard_control -DCMAKE_INSTALL_PREFIX=/home/faruk/ws_sensor_combined/install/px4_offboard_control
+[284.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/faruk/ws_sensor_combined/build/px4_offboard_control -- -j12 -l12
+[302.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control' returned '0': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/faruk/ws_sensor_combined/build/px4_offboard_control -- -j12 -l12
+[302.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/faruk/ws_sensor_combined/build/px4_offboard_control
+[302.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_offboard_control)
+[302.604s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control' for CMake module files
+[302.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control' returned '0': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/faruk/ws_sensor_combined/build/px4_offboard_control
+[302.605s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control' for CMake config files
+[302.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard_control', 'cmake_prefix_path')
+[302.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/cmake_prefix_path.ps1'
+[302.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/cmake_prefix_path.dsv'
+[302.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/cmake_prefix_path.sh'
+[302.609s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib'
+[302.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard_control', 'ld_library_path_lib')
+[302.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/ld_library_path_lib.ps1'
+[302.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/ld_library_path_lib.dsv'
+[302.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/ld_library_path_lib.sh'
+[302.611s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control/bin'
+[302.611s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/pkgconfig/px4_offboard_control.pc'
+[302.611s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/python3.10/site-packages'
+[302.611s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control/bin'
+[302.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.ps1'
+[302.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.dsv'
+[302.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.sh'
+[302.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.bash'
+[302.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.zsh'
+[302.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/colcon-core/packages/px4_offboard_control)
+[302.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_offboard_control)
+[302.616s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control' for CMake module files
+[302.616s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control' for CMake config files
+[302.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard_control', 'cmake_prefix_path')
+[302.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/cmake_prefix_path.ps1'
+[302.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/cmake_prefix_path.dsv'
+[302.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/cmake_prefix_path.sh'
+[302.618s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib'
+[302.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard_control', 'ld_library_path_lib')
+[302.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/ld_library_path_lib.ps1'
+[302.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/ld_library_path_lib.dsv'
+[302.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/hook/ld_library_path_lib.sh'
+[302.620s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control/bin'
+[302.620s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/pkgconfig/px4_offboard_control.pc'
+[302.620s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/python3.10/site-packages'
+[302.620s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_offboard_control/bin'
+[302.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.ps1'
+[302.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.dsv'
+[302.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.sh'
+[302.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.bash'
+[302.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.zsh'
+[302.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faruk/ws_sensor_combined/install/px4_offboard_control/share/colcon-core/packages/px4_offboard_control)
+[302.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/faruk/ws_sensor_combined/build/px4_ros_com -- -j12 -l12
+[302.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faruk/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/faruk/ws_sensor_combined/build/px4_ros_com
+[302.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[302.750s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com' for CMake module files
+[302.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faruk/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/faruk/ws_sensor_combined/build/px4_ros_com
+[302.750s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com' for CMake config files
+[302.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[302.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[302.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[302.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[302.754s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com/lib'
+[302.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[302.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[302.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[302.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[302.756s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com/bin'
+[302.756s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[302.756s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages'
+[302.756s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com/bin'
+[302.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[302.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[302.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.sh'
+[302.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.bash'
+[302.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[302.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faruk/ws_sensor_combined/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[302.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[302.759s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com' for CMake module files
+[302.760s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com' for CMake config files
+[302.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[302.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[302.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[302.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[302.762s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com/lib'
+[302.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[302.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[302.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[302.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[302.764s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com/bin'
+[302.764s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[302.765s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages'
+[302.765s] Level 1:colcon.colcon_core.environment:checking '/home/faruk/ws_sensor_combined/install/px4_ros_com/bin'
+[302.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[302.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[302.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.sh'
+[302.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.bash'
+[302.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/faruk/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[302.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faruk/ws_sensor_combined/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[302.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[302.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[302.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[302.769s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[302.775s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[302.775s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[302.775s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[302.785s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[302.785s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faruk/ws_sensor_combined/install/local_setup.ps1'
+[302.797s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/faruk/ws_sensor_combined/install/_local_setup_util_ps1.py'
+[302.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faruk/ws_sensor_combined/install/setup.ps1'
+[302.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faruk/ws_sensor_combined/install/local_setup.sh'
+[302.801s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/faruk/ws_sensor_combined/install/_local_setup_util_sh.py'
+[302.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faruk/ws_sensor_combined/install/setup.sh'
+[302.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faruk/ws_sensor_combined/install/local_setup.bash'
+[302.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faruk/ws_sensor_combined/install/setup.bash'
+[302.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faruk/ws_sensor_combined/install/local_setup.zsh'
+[302.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faruk/ws_sensor_combined/install/setup.zsh'

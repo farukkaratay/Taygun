@@ -1,0 +1,23 @@
+[1.500s] Invoking command in '/home/faruk/ws_sensor_combined/src/yolo_detector': PYTHONPATH=/home/faruk/ws_sensor_combined/build/yolo_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faruk/ws_sensor_combined/install/yolo_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detector build --build-base /home/faruk/ws_sensor_combined/build/yolo_detector/build install --record /home/faruk/ws_sensor_combined/build/yolo_detector/install.log --single-version-externally-managed install_data
+[2.099s] /home/faruk/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.099s]   warnings.warn(msg)
+[2.129s] running egg_info
+[2.136s] writing ../../build/yolo_detector/yolo_detector.egg-info/PKG-INFO
+[2.137s] writing dependency_links to ../../build/yolo_detector/yolo_detector.egg-info/dependency_links.txt
+[2.137s] writing entry points to ../../build/yolo_detector/yolo_detector.egg-info/entry_points.txt
+[2.137s] writing requirements to ../../build/yolo_detector/yolo_detector.egg-info/requires.txt
+[2.137s] writing top-level names to ../../build/yolo_detector/yolo_detector.egg-info/top_level.txt
+[2.149s] reading manifest file '../../build/yolo_detector/yolo_detector.egg-info/SOURCES.txt'
+[2.149s] writing manifest file '../../build/yolo_detector/yolo_detector.egg-info/SOURCES.txt'
+[2.149s] running build
+[2.149s] running build_py
+[2.149s] running install
+[2.150s] running install_lib
+[2.166s] running install_data
+[2.167s] running install_egg_info
+[2.203s] removing '/home/faruk/ws_sensor_combined/install/yolo_detector/lib/python3.10/site-packages/yolo_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[2.204s] Copying ../../build/yolo_detector/yolo_detector.egg-info to /home/faruk/ws_sensor_combined/install/yolo_detector/lib/python3.10/site-packages/yolo_detector-0.0.0-py3.10.egg-info
+[2.205s] running install_scripts
+[2.464s] Installing yolo_node script to /home/faruk/ws_sensor_combined/install/yolo_detector/lib/yolo_detector
+[2.464s] writing list of installed files to '/home/faruk/ws_sensor_combined/build/yolo_detector/install.log'
+[2.579s] Invoked command in '/home/faruk/ws_sensor_combined/src/yolo_detector' returned '0': PYTHONPATH=/home/faruk/ws_sensor_combined/build/yolo_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faruk/ws_sensor_combined/install/yolo_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detector build --build-base /home/faruk/ws_sensor_combined/build/yolo_detector/build install --record /home/faruk/ws_sensor_combined/build/yolo_detector/install.log --single-version-externally-managed install_data

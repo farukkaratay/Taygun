@@ -1,0 +1,17 @@
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/uninstall.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/px4_offboard_control_uninstall.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/frame_transforms.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/sensor_combined_listener.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/vehicle_gps_position_listener.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/debug_vect_advertiser.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/offboard_control.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/offboard_control_srv.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/ament_cmake_python_copy_px4_offboard_control.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/ament_cmake_python_build_px4_offboard_control_egg.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/test.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/edit_cache.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/rebuild_cache.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/list_install_components.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/install.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/install/local.dir
+/home/faruk/ws_sensor_combined/build/px4_offboard_control/CMakeFiles/install/strip.dir

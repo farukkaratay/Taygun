@@ -1,0 +1,147 @@
+[0.311s] Invoking command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/faruk/ws_sensor_combined/src/px4_offboard_control -DCMAKE_INSTALL_PREFIX=/home/faruk/ws_sensor_combined/install/px4_offboard_control
+[0.391s] -- The C compiler identification is GNU 11.4.0
+[0.477s] -- The CXX compiler identification is GNU 11.4.0
+[0.488s] -- Detecting C compiler ABI info
+[0.577s] -- Detecting C compiler ABI info - done
+[0.591s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.592s] -- Detecting C compile features
+[0.592s] -- Detecting C compile features - done
+[0.597s] -- Detecting CXX compiler ABI info
+[0.711s] -- Detecting CXX compiler ABI info - done
+[0.725s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.726s] -- Detecting CXX compile features
+[0.726s] -- Detecting CXX compile features - done
+[0.730s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.299s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.416s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.472s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.481s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.495s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.575s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.587s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.590s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.642s] -- Found px4_msgs: 2.0.1 (/home/faruk/ws_sensor_combined/install/px4_msgs/share/px4_msgs/cmake)
+[1.666s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.732s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.736s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.864s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.907s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.963s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.974s] -- Looking for pthread.h
+[2.063s] -- Looking for pthread.h - found
+[2.064s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.157s] -- Found Threads: TRUE  
+[2.218s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.247s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[2.258s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.395s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.398s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.398s] -- Configured cppcheck include dirs: /home/faruk/ws_sensor_combined/src/px4_offboard_control/include;$<BUILD_INTERFACE:/home/faruk/ws_sensor_combined/src/px4_offboard_control/include/px4_offboard_control>
+[2.398s] -- Configured cppcheck exclude dirs and/or files: 
+[2.402s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.402s] -- Configured cpplint exclude dirs and/or files: 
+[2.403s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.404s] -- Added test 'lint_cmake' to check CMake code style
+[2.405s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.408s] -- Added test 'uncrustify' to check C / C++ code style
+[2.408s] -- Configured uncrustify additional arguments: 
+[2.409s] -- Added test 'xmllint' to check XML markup files
+[2.412s] -- Configuring done
+[2.443s] -- Generating done
+[2.458s] -- Build files have been written to: /home/faruk/ws_sensor_combined/build/px4_offboard_control
+[2.472s] Invoked command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control' returned '0': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/faruk/ws_sensor_combined/src/px4_offboard_control -DCMAKE_INSTALL_PREFIX=/home/faruk/ws_sensor_combined/install/px4_offboard_control
+[2.474s] Invoking command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/faruk/ws_sensor_combined/build/px4_offboard_control -- -j12 -l12
+[2.534s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[2.534s] [ 25%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[2.535s] [ 25%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[2.535s] [ 33%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[2.535s] [ 41%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[2.535s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[2.548s] [ 50%] Built target ament_cmake_python_copy_px4_offboard_control
+[2.912s] running egg_info
+[2.946s] creating px4_offboard_control.egg-info
+[2.947s] writing px4_offboard_control.egg-info/PKG-INFO
+[2.947s] writing dependency_links to px4_offboard_control.egg-info/dependency_links.txt
+[2.947s] writing top-level names to px4_offboard_control.egg-info/top_level.txt
+[2.948s] writing manifest file 'px4_offboard_control.egg-info/SOURCES.txt'
+[3.035s] reading manifest file 'px4_offboard_control.egg-info/SOURCES.txt'
+[3.036s] writing manifest file 'px4_offboard_control.egg-info/SOURCES.txt'
+[3.090s] [ 50%] Built target ament_cmake_python_build_px4_offboard_control_egg
+[10.343s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[10.699s] [ 58%] Built target debug_vect_advertiser
+[10.939s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[11.332s] [ 66%] Built target offboard_control
+[12.487s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[12.909s] [ 75%] Built target offboard_control_srv
+[13.760s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[14.182s] [ 83%] Built target frame_transforms
+[15.618s] [ 91%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[16.003s] [100%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[16.195s] [100%] Built target vehicle_gps_position_listener
+[16.528s] [100%] Built target sensor_combined_listener
+[16.541s] Invoked command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control' returned '0': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/faruk/ws_sensor_combined/build/px4_offboard_control -- -j12 -l12
+[16.543s] Invoking command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/faruk/ws_sensor_combined/build/px4_offboard_control
+[16.550s] -- Install configuration: ""
+[16.551s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/px4_offboard_control/sensor_combined_listener
+[16.553s] -- Set runtime path of "/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/px4_offboard_control/sensor_combined_listener" to ""
+[16.554s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/px4_offboard_control/vehicle_gps_position_listener
+[16.557s] -- Set runtime path of "/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/px4_offboard_control/vehicle_gps_position_listener" to ""
+[16.557s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/px4_offboard_control/debug_vect_advertiser
+[16.558s] -- Set runtime path of "/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/px4_offboard_control/debug_vect_advertiser" to ""
+[16.558s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/px4_offboard_control/offboard_control
+[16.560s] -- Set runtime path of "/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/px4_offboard_control/offboard_control" to ""
+[16.560s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/px4_offboard_control/offboard_control_srv
+[16.561s] -- Set runtime path of "/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/px4_offboard_control/offboard_control_srv" to ""
+[16.562s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/environment/library_path.sh
+[16.562s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/environment/library_path.dsv
+[16.562s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/include/px4_offboard_control
+[16.562s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/include/px4_offboard_control/frame_transforms.h
+[16.562s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/libframe_transforms.so
+[16.566s] -- Set runtime path of "/home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/libframe_transforms.so" to ""
+[16.566s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control//launch
+[16.566s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control//launch/offboard_control_launch.yaml
+[16.566s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control//launch/sensor_combined_listener.launch.py
+[16.566s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control//test
+[16.566s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control//test/test_output.py
+[16.566s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control//test/pipeline_io_test.py
+[16.567s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control//test/__init__.py
+[16.567s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control//test/test_input.py
+[16.567s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/environment/pythonpath.sh
+[16.567s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/environment/pythonpath.dsv
+[16.567s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/local/lib/python3.10/dist-packages/px4_offboard_control-0.1.0-py3.10.egg-info
+[16.567s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/local/lib/python3.10/dist-packages/px4_offboard_control-0.1.0-py3.10.egg-info/top_level.txt
+[16.567s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/local/lib/python3.10/dist-packages/px4_offboard_control-0.1.0-py3.10.egg-info/SOURCES.txt
+[16.567s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/local/lib/python3.10/dist-packages/px4_offboard_control-0.1.0-py3.10.egg-info/dependency_links.txt
+[16.567s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/local/lib/python3.10/dist-packages/px4_offboard_control-0.1.0-py3.10.egg-info/PKG-INFO
+[16.567s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/local/lib/python3.10/dist-packages/px4_offboard_control
+[16.567s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/local/lib/python3.10/dist-packages/px4_offboard_control/module_to_import.py
+[16.568s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/local/lib/python3.10/dist-packages/px4_offboard_control/__init__.py
+[16.613s] Listing '/home/faruk/ws_sensor_combined/install/px4_offboard_control/local/lib/python3.10/dist-packages/px4_offboard_control'...
+[16.613s] Compiling '/home/faruk/ws_sensor_combined/install/px4_offboard_control/local/lib/python3.10/dist-packages/px4_offboard_control/__init__.py'...
+[16.613s] Compiling '/home/faruk/ws_sensor_combined/install/px4_offboard_control/local/lib/python3.10/dist-packages/px4_offboard_control/module_to_import.py'...
+[16.620s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/lib/px4_offboard_control/offboard_control.py
+[16.620s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/ament_index/resource_index/package_run_dependencies/px4_offboard_control
+[16.621s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/ament_index/resource_index/parent_prefix_path/px4_offboard_control
+[16.621s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/environment/ament_prefix_path.sh
+[16.621s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/environment/ament_prefix_path.dsv
+[16.621s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/environment/path.sh
+[16.621s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/environment/path.dsv
+[16.621s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/local_setup.bash
+[16.622s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/local_setup.sh
+[16.622s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/local_setup.zsh
+[16.622s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/local_setup.dsv
+[16.622s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.dsv
+[16.622s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/ament_index/resource_index/packages/px4_offboard_control
+[16.623s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/cmake/export_frame_transformsExport.cmake
+[16.623s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/cmake/export_frame_transformsExport-noconfig.cmake
+[16.623s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.623s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/cmake/ament_cmake_export_targets-extras.cmake
+[16.623s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.624s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/cmake/ament_cmake_export_libraries-extras.cmake
+[16.624s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/cmake/px4_offboard_controlConfig.cmake
+[16.624s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/cmake/px4_offboard_controlConfig-version.cmake
+[16.624s] -- Installing: /home/faruk/ws_sensor_combined/install/px4_offboard_control/share/px4_offboard_control/package.xml
+[16.626s] Invoked command in '/home/faruk/ws_sensor_combined/build/px4_offboard_control' returned '0': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/faruk/ws_sensor_combined/build/px4_offboard_control

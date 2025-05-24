@@ -1,0 +1,2 @@
+[console_scripts]
+listener_node = yolo_listener.listener_node:main
