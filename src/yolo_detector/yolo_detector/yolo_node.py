@@ -103,7 +103,7 @@ class YoloPublisher(Node):
             self.get_logger().info(f"[{self.current_frame_index}/{self.frame_count}] Yayınlandı: no detections")
 
         # 🖼️ Orijinal çözünürlükte ekranda göster
-        cv2.imshow("YOLOv8 Detection (HAM FRAME)", orig_frame)
+        cv2.imshow("YOLOv11 Detection (HAM FRAME)", orig_frame)
         cv2.waitKey(1)
 
 

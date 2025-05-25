@@ -1,0 +1,28 @@
+[0.790s] Invoking command in '/home/faruk/ws_sensor_combined/src/px4_offboard': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faruk/ws_sensor_combined/install/px4_offboard/lib/python3.10/site-packages:/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/faruk/ws_sensor_combined/build/px4_offboard/build install --record /home/faruk/ws_sensor_combined/build/px4_offboard/install.log --single-version-externally-managed install_data
+[0.946s] /home/faruk/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.946s]   warnings.warn(msg)
+[1.055s] running egg_info
+[1.072s] writing ../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[1.073s] writing dependency_links to ../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[1.073s] writing entry points to ../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[1.073s] writing requirements to ../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[1.073s] writing top-level names to ../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[1.110s] reading manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[1.111s] adding license file 'LICENSE'
+[1.112s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[1.112s] running build
+[1.112s] running build_py
+[1.113s] running install
+[1.117s] running install_lib
+[1.136s] running install_data
+[1.136s] running install_egg_info
+[1.154s] removing '/home/faruk/ws_sensor_combined/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info' (and everything under it)
+[1.155s] Copying ../../build/px4_offboard/px4_offboard.egg-info to /home/faruk/ws_sensor_combined/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info
+[1.156s] running install_scripts
+[1.289s] Installing control script to /home/faruk/ws_sensor_combined/install/px4_offboard/lib/px4_offboard
+[1.289s] Installing offboard_control script to /home/faruk/ws_sensor_combined/install/px4_offboard/lib/px4_offboard
+[1.289s] Installing processes script to /home/faruk/ws_sensor_combined/install/px4_offboard/lib/px4_offboard
+[1.289s] Installing velocity_control script to /home/faruk/ws_sensor_combined/install/px4_offboard/lib/px4_offboard
+[1.289s] Installing visualizer script to /home/faruk/ws_sensor_combined/install/px4_offboard/lib/px4_offboard
+[1.290s] writing list of installed files to '/home/faruk/ws_sensor_combined/build/px4_offboard/install.log'
+[1.310s] Invoked command in '/home/faruk/ws_sensor_combined/src/px4_offboard' returned '0': AMENT_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs LD_LIBRARY_PATH=/home/faruk/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/faruk/ws_sensor_combined/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faruk/ws_sensor_combined/install/px4_offboard/lib/python3.10/site-packages:/home/faruk/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/faruk/ws_sensor_combined/build/px4_offboard/build install --record /home/faruk/ws_sensor_combined/build/px4_offboard/install.log --single-version-externally-managed install_data

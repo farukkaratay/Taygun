@@ -12,7 +12,7 @@ class YoloPublisher(Node):
         self.publisher_ = self.create_publisher(String, 'yolo_topic', 10)
         self.timer = self.create_timer(0.002, self.timer_callback)
 
-        self.model = YOLO('best (1).pt')
+        self.model = YOLO('yolov11_50.pt')
         #url = 'http://192.168.105.11:8080/video'
         self.cap = cv2.VideoCapture(0)
 
@@ -103,7 +103,7 @@ class YoloPublisher(Node):
             self.get_logger().info(f"[{self.current_frame_index}/{self.frame_count}] Yayınlandı: no detections")
 
         # 🖼️ Orijinal çözünürlükte ekranda göster
-        cv2.imshow("YOLOv8 Detection (HAM FRAME)", orig_frame)
+        cv2.imshow("YOLOv11 Detection (HAM FRAME)", orig_frame)
         cv2.waitKey(1)
 
 
