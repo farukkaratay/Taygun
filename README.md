@@ -1,6 +1,10 @@
-# Terminalde çalıştırılacak kodlar
+# Taygun İHA
 
-<img src="images/istikbal.jpg" alt="Proje Logom" width="200" height="100">
+<p align="center">
+  <img src="images/istikbal.jpg" alt="Proje Logom" width="400" height="400">
+</p>
+
+# Terminalde çalıştırılacak kodlar
 
 ## Terminal 1: 
 Ana dizinde PX4-Autopilot yüklü olması gerekiyor. Yüklü değilse ilk olarak aşağıdaki kod satırını çalıştırın. [PX4-Autopilot](https://docs.px4.io/main/en/ros2/user_guide.html).
@@ -19,7 +23,7 @@ make px4_sitl gz_rc_cessna
  #
  QGroundControl programını çalıştırıp "arm" edilmesi gerekiyor.
  
- <img src="images/qgc.png" alt="qgc" width="200" height="100">
+ ![qgc](images/qgc.png)
  
  #
 ## Terminal 2:
@@ -44,7 +48,7 @@ source install/setup.bash
 ros2 run yolo_detector yolo_node
   ```
 
-<img src="images/terminal.png" alt="Terminal" width="200" height="100">
+ ![terminal](images/terminal.png) 
 
 
 
